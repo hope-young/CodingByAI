@@ -1,0 +1,44 @@
+name: poop_tracker
+description: "💩 PoopTracker - 排便记录 APP"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  
+  # 状态管理
+  flutter_riverpod: ^2.5.1
+  
+  # 本地存储（简单方案）
+  shared_preferences: ^2.2.3
+  
+  # UI 组件
+  fl_chart: ^0.68.0
+  table_calendar: ^3.1.2
+  
+  # 工具
+  intl: ^0.19.0
+  uuid: ^4.4.0
+  
+  # 提醒
+  flutter_local_notifications: ^17.2.2
+  
+  # 分享
+  share_plus: ^9.0.0
+  
+  # 导出
+  pdf: ^3.11.0
+  excel: ^4.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
